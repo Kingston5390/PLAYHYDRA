@@ -11,7 +11,7 @@
       content="playhydra, unblocked games, unblocked, unblocked playhydra"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HOME | PLAYHYDRA</title>
+    <title>HOME | RL Games</title>
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
   </head>
 
@@ -19,12 +19,12 @@
     <p
       style="
         padding: 20px;
-        background-color: #b03232;
+        background-color: #222222;
         width: auto;
         text-align: center;
       "
     >
-      <a href="/posts/2022/ukraine.html" style="color: #161515;"
+      <a href="/posts/2022/ukraine.html" style="color: yellow;"
         >An Important PSA</a
       >
     </p>
@@ -33,7 +33,7 @@
         ><img
           src="assets/images/playhydra.png"
           alt="PLAYHYDRA LOGO"
-          title="PLAYHYDRA"
+          title="RL Games"
           class="logo"
       /></a>
 
@@ -235,19 +235,4 @@
       function search() {
         let input = document.getElementById("searchbar");
         let filter = input.value.toLowerCase();
-        let container = document.getElementById("search-items");
-        let items = container.getElementsByClassName("search-item");
-
-        for (var i = 0; i < items.length; i++) {
-          let div = items[i];
-          let element = div.getElementsByTagName("a")[0];
-          if (!element.innerHTML.toLowerCase().includes(filter)) {
-            items[i].style.display = "none";
-          } else {
-            items[i].style.display = "";
-          }
-        }
-      }
-    </script>
-  </body>
-</html>
+       
